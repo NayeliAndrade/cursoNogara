@@ -1,0 +1,106 @@
+/*h1{
+    border-right:3px solid blueviolet;
+    border-left: 7px dashed black;
+    border-top: 10px dotted pink;
+    border-bottom: 9px double green;
+    border-radius: 10px;   
+    width: 300px;
+    margin: 50px 10px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    margin:  20px auto;
+}
+img{
+    width: 300px;
+    border-radius: 50% 10px 20px 40px;
+    margin: auto;
+    display: block;
+}*/
+main{
+    max-width: 1200px;
+    min-width: 725px;
+    margin: 0 auto;
+}
+
+html{
+    background-color: #0084d1;
+    padding:  10px 100px;
+    color: white;
+}
+h1{
+    border-bottom: 2px solid white;
+    padding: 20px;
+    margin: 0;
+}
+.izquierda{
+    display: inline-block;
+    text-align: left;
+    width: 50%;    
+}
+input{
+    border-radius: 5px;
+    padding: 8px;
+    margin: 6px;
+}
+.derecha{
+    display: inline-block;
+    max-width: 45%;
+    width: 100%; 
+    background-color: #015799;
+    text-align: center;
+    padding: 0px;
+    margin: 15px;
+}
+form{
+    margin: auto;
+    width: 70%;
+}
+
+.boton{
+    padding-top: 9px;
+    border: 10px;
+    margin: 1px;
+    height: 23px;
+    display: inline-block;
+}
+.color0{
+    background-color: orange;
+    color: white;
+    width: 40%;
+    padding: 10px 30px;
+    margin: 14px 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.color1{
+    background-color: #394f7b;
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+span{
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+}
+.color2{
+    background-color: #ffffff;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.color3{
+    background-color: #00acee;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+}
+h2{
+    margin-top: 50px;
+}

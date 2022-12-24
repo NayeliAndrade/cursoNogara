@@ -1,0 +1,40 @@
+/* animaciones */
+
+.circle{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #7c15cf;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   
+    animation-name: cambiarColor;
+    animation-duration: 3s;
+    animation-iteration-count: 3; /* nombre de las veces que se repite */
+    animation-direction: reverse; /* donde va a empezar de 100-0 */ /* alternate 0-100-0 con animacion */
+    /* animation-fill-mode: forwards; */ /* define que pasara antes durante y fin de la animacion */ 
+    /* forwards se queda con la ultima animacion */
+    animation-delay: 2s; /* tiempo de espera para que la animacion se ejecute */
+    animation-fill-mode: backwards; /* inicial solo funciona con delay */
+    animation-timing-function: ease-in; /* rapides de la animacion */
+}
+
+@keyframes cambiarColor{
+    0%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: navy;
+    }
+
+
+}
+
+/* 
+transform: scale(1); zoom
+ transform: translateX(0); moverse
+*/
